@@ -63,3 +63,31 @@ edad = empleado.pop("edad")
 
 print(empleado)
 print("Edad eliminada:", edad)
+
+# 3 ejemplos de Conjuntos
+
+# Números registrados
+numeros = {1, 2, 3, 4}
+
+# Agregar un nuevo número
+numeros.add(5)
+
+print(numeros)
+
+# Estudiantes que practican diferentes deportes
+futbol = {"Carlos", "Luis", "Pedro"}
+basquetbol = {"Pedro", "Miguel", "Juan"}
+
+# Obtener todos los estudiantes
+todos = futbol.union(basquetbol)
+
+print(todos)
+
+# Estudiantes inscritos en diferentes actividades
+programacion = {"Carlos", "Luis", "Pedro", "Miguel"}
+futbol = {"Pedro", "Miguel", "Juan"}
+
+# Encontrar estudiantes que están en ambas actividades
+comunes = programacion.intersection(futbol)
+
+print(comunes)
