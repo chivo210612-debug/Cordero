@@ -91,3 +91,31 @@ futbol = {"Pedro", "Miguel", "Juan"}
 comunes = programacion.intersection(futbol)
 
 print(comunes)
+
+# 3 ejemplos de Tuplas
+
+# Calificaciones obtenidas
+calificaciones = (90, 80, 90, 70, 90, 85)
+
+# Contar cuántas veces aparece 90
+cantidad = calificaciones.count(90)
+
+print("El 90 aparece:", cantidad, "veces")
+
+# Días de la semana
+dias = ("Lunes", "Martes", "Miércoles", "Jueves", "Viernes")
+
+# Buscar la posición de "Miércoles"
+posicion = dias.index("Miércoles")
+
+print("Miércoles está en la posición:", posicion)
+
+# Datos de un producto
+producto = ("Laptop", 15000, 10)
+
+# Desempaquetar la tupla
+nombre, precio, stock = producto
+
+print("Producto:", nombre)
+print("Precio:", precio)
+print("Stock:", stock)
