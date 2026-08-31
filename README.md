@@ -14,3 +14,11 @@ jugadores = ["Carlos", "Luis", "Miguel", "Pedro"].
 jugadores.remove("Miguel").
 
 print(jugadores).
+
+# Calificaciones de estudiantes
+calificaciones = [85, 70, 95, 60, 90]
+
+# Ordenar las calificaciones de menor a mayor
+calificaciones.sort()
+
+print(calificaciones)
